@@ -5,7 +5,7 @@ export default {
 	title: "GroshUI/Button",
 	component: Button,
 } as ComponentMeta<typeof Button>;
-const Template: ComponentStory<typeof Button> = (args) => <Button {...args}>Hello world !</Button>;
+const Template: ComponentStory<typeof Button> = (args) => <Button {...args} className='text-black'>Hello world !</Button>;
 
 export const HelloWorld = Template.bind({});
 
